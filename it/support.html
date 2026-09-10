@@ -10,10 +10,10 @@
   <main class="shell">
     <p class="eyebrow">Assistenza</p><h1>Configurazione e risoluzione dei problemi</h1>
     <h2>Primo collegamento</h2>
-    <ol><li>Collega iPhone o iPad alla stessa rete dell’apparato Modbus TCP.</li><li>Consenti l’accesso alla rete locale quando iOS lo richiede.</li><li>Per ALFA avvia la ricerca automatica; per qualsiasi apparato puoi creare un profilo indicando tipo, host, porta e Unit ID.</li><li>Seleziona <strong>Connetti</strong>. Un profilo valido viene conservato solo sul dispositivo.</li></ol>
+    <ol><li>Collega iPhone o iPad alla stessa rete dell’apparato Modbus TCP.</li><li>Consenti l’accesso alla rete locale quando iOS lo richiede.</li><li>Crea un profilo scegliendo l’apparato, quindi inserisci l’indirizzo. Porta e Unit ID vengono precompilati e restano modificabili.</li><li>Seleziona <strong>Connetti</strong>. Un profilo valido viene conservato solo sul dispositivo.</li></ol>
     <h2>Impostazioni abituali</h2><p>La porta Modbus TCP predefinita è 502 e lo Unit ID predefinito è 1. Il tuo apparato potrebbe utilizzare valori diversi: consulta la documentazione del produttore.</p>
     <h2>Apparati supportati</h2><ul><li><strong>ALFA by Sinapsi:</strong> potenza ed energia di rete, produzione e fascia oraria.</li><li><strong>Shelly Pro 3EM:</strong> potenza netta trifase ed energia prelevata e restituita.</li><li><strong>Shelly Pro EM:</strong> primo canale monofase; il server Modbus TCP deve essere abilitato nelle impostazioni Shelly.</li><li><strong>SunSpec Modbus:</strong> rilevamento dei modelli inverter 101–103 e contatore 201–204 alle basi standard 40000, 0 o 50000.</li></ul><p>La dashboard mostra solo le misure realmente esposte dal profilo selezionato.</p>
-    <h2>Se la ricerca non trova apparati</h2>
+    <h2>Se l’apparato non risponde</h2>
     <ul><li>Verifica che l’autorizzazione Rete locale sia attiva in Impostazioni iOS.</li><li>Controlla che Wi-Fi o VPN permettano di raggiungere la sottorete dell’apparato.</li><li>Prova l’inserimento manuale dell’indirizzo IP.</li><li>Verifica che la porta Modbus TCP non sia bloccata dal router o da un firewall.</li></ul>
     <h2>Modalità demo</h2><p>La demo usa esclusivamente dati simulati e non effettua connessioni Modbus. La dicitura DEMO è sempre visibile nella dashboard.</p>
     <h2>Uso contemporaneo</h2><p>Modbus Energy apre connessioni brevi in sola lettura. In genere può convivere con altri client, ma il numero di connessioni simultanee dipende dall’apparato.</p>
